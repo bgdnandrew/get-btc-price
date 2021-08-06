@@ -1,0 +1,1 @@
+web: gunicorn startup_oriented.wsgi --log-file -
