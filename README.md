@@ -23,6 +23,13 @@ To run this project, you will need to add the following environment variables to
 `ACCESS_TOKEN_SECRET`
 
 [Twitter Developer Portal]: <https://developer.twitter.com/en/portal/dashboard>
+
+## Deployed with Heroku
+
+- Free Dynos
+- Heroku Scheduler Add-on
+
+
 ## Acknowledgements
 
 Data provided by [Coinbase](https://coinbase.com/)
@@ -31,6 +38,6 @@ Data provided by [Coinbase](https://coinbase.com/)
   
 ## Authors
 
-- [@bgdnandrew](https://www.github.com/bgdnandrew)
+- [@bgdnandrew](https://www.bogdanandrei.com/)
 
   
