@@ -28,6 +28,7 @@ client = tweepy.Client(bearer_token = BEARER_TOKEN ,
                        access_token_secret = ACCESS_TOKEN_SECRET)
 
 def get_btc_value():
+    print("Getting BTC value from Coinbase")
     response = requests.get("https://api.coinbase.com/v2/prices/BTC-USD/spot")
     print("Response: " + str(response.status_code) + " " + response.reason)
     data = response.json()
@@ -44,6 +45,9 @@ def get_btc_value():
     print("Tweeted: ", tweet_string)
 
 while 1==1:
+    print("Entered the continous loop")
     time.sleep(10)
     get_btc_value()
+    print("Just tweeted, now sleeping for 25 minutes")
     time.sleep(1500)
+    print("Woke up, now ready to tweet again")
