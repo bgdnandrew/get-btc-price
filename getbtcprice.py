@@ -40,7 +40,7 @@ def get_btc_value():
     # api.update_status('#BTC is now at $' + price)
 
     # new method according to tweepy 4.X
-    tweet_string = "#BTC is now at $" + price + " | via wellrounded.ai"
+    tweet_string = "#BTC is now at $" + price + " | via orientedplatforms.com"
     client.create_tweet(text = tweet_string)
     print("Tweeted: ", tweet_string)
 
